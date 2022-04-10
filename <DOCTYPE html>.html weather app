@@ -1,0 +1,26 @@
+<DOCTYPE html>
+    <html lang="en
+    <head>
+        <title>weather app</title>
+        <link rel=" stylesheet " href="style.css>
+    </head>"
+
+    <body>
+        <div id="app-container">
+            <div id="location
+        <P>Hyderabad</p>
+        </div>
+        <div id=temperature>
+            <img id=" temp_icon " src="http:// "icon/atmosphere.png" alt=">
+            <p><span> id=" temp-value ' >25<amplify-photo-picker
+                (loaded)="onImagePreviewLoaded($event)"
+                (picked)="onImageSelected($event)">
+            </amplify-photo-picker>/span><span>id=temp-unit"></span<>/p>
+                span></div>"
+                <div id="climate>
+                    <p>sunny</p>
+                </div>
+                <sript src="script.js'></div>
+            <script>
+                < /body> <
+                html >
