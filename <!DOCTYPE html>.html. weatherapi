@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Local Weather Page</title>
+    <meta charset="utf-8" />
+
+    <!--<script src="test.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script src="sc.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"> -->
+
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/css/weather-icons.css" rel="stylesheet">
+    <link href="css/font" rel="stylesheet">
+    <!-- <link href="http://fonts.googleapis.com/css?family=Cardo:400,400italic|Radley|Tangerine" rel="stylesheet"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1><i class="wi wi-day-rain-mix"></i> Weather App</h1>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <h1><span class="city"></span></h1>
+        </div>
+
+        <div class="row text-center">
+            <h1 class="toggle"><a href="#"><span class="temp"></a></span>
+            </h1>
+        </div>
+
+        <div class="row text-center">
+            <h1><span class="clouds"></span></h1>
+        </div>
+    </div>
+    <footer>
+        Coded with <i class="fa fa-fw fa-heart fa-spin" style="color:red;font-size:24px;"></i> by <a href="https://twitter.com/RituSkVerma" target="_blank">RITU</a>
+    </footer>
+</body>
+
+</html>
